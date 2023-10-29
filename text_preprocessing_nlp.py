@@ -60,8 +60,8 @@ print(filtered_words)
 ### It is also known as the text standardization step where the words are stemmed or diminished to their root/base form.
 """
 
-from nltk.stem.porter import PorterStemmer
-porter_stemmer = PorterStemmer()
+#from nltk.stem.porter import PorterStemmer
+#porter_stemmer = PorterStemmer()
 
 stem_text = [porter_stemmer.stem(word) for word in filtered_words]
 print(stem_text)
